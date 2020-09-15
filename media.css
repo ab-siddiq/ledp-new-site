@@ -1,0 +1,454 @@
+@media only screen and (max-width: 1100px) {
+    .menu-logo {
+        width: 100%;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+
+    .menu-item {
+        width: 80%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .menu-login {
+        width: 20%;
+        overflow: hidden;
+        text-align: right;
+        position: relative;
+        top: 20px
+    }
+
+    .slider {
+        width: 100%;
+        margin-top: 260px
+    }
+
+    .notice {
+        padding: 0px 0;
+        background-color: #FAFBFE;
+    }
+
+    .statistic-left {
+        width: 100%;
+        margin-right: none;
+        float: none;
+        padding-bottom: 20px;
+    }
+
+    .statistic-middle-1 {
+        width: 30%;
+        margin-right: 5%;
+        overflow: hidden;
+        float: left;
+        border-right: 1px solid #fff;
+        box-sizing: border-box;
+    }
+
+    .statistic-middle-2 {
+        width: 30%;
+        margin-right: 5%;
+        overflow: hidden;
+        float: left;
+        border-right: 1px solid #fff;
+        box-sizing: border-box;
+    }
+
+    .statistic-right {
+        width: 30%;
+        margin-right: 4%;
+        overflow: hidden;
+    }
+
+}
+
+/*1000 px*/
+@media only screen and (max-width: 1000px) {
+
+    .media-left {
+        width: 45%;
+        margin-right: 5%;
+        float: left;
+    }
+
+
+    .media-right {
+
+        width: 45%;
+        overflow: hidden;
+    }
+
+    .online-exam {
+        clear: left;
+    }
+   .course-extra {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #FAFBFE;
+}
+    .course-extra p, .course-extra img{text-align: left;}
+
+}
+
+/*1000 px*/
+@media only screen and (max-width: 825px) {
+
+    .menu-item {
+        width: 100%;
+        overflow: hidden;
+        float: none;
+
+    }
+
+    .menu-login {
+        margin-top: -20px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        position: none;
+    }
+
+    .notice {
+        padding: 80px 0;
+        background-color: #FAFBFE;
+    }
+
+    .notice-left {
+        width: 69%;
+        margin-right: 1%;
+        float: left;
+    }
+
+    .notice-right {
+        width: 30%;
+        overflow: hidden;
+    }
+
+    .course-1 {
+        width: 48%;
+        margin-right: 2%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    .course-2 {
+        width: 48%;
+        margin-right: 2%;
+        overflow: hidden;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    .course-3 {
+
+        clear: both;
+        width: 48%;
+        margin: auto;
+    }
+
+    .registration-instruction-left {
+        width: 100%;
+    }
+
+    .registration-instruction-right {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .statistic-middle-1 {
+        width: 48%;
+        margin-right: 4%;
+        overflow: hidden;
+        float: left;
+        border-right: 1px solid #fff;
+        box-sizing: border-box;
+        margin-bottom: 4%;
+    }
+
+    .statistic-middle-2 {
+        width: 48%;
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+        border-right: none;
+        box-sizing: border-box;
+        margin-bottom: 4%;
+    }
+
+    .statistic-right {
+        clear: both;
+        width: 50%;
+        margin-right: none;
+        overflow: hidden;
+        margin: auto;
+    }
+
+
+    .motamot-1,
+    .motamot-2,
+    .motamot-3 {
+        width: 47%;
+        min-height: 380px;
+        box-sizing: border-box;
+        padding: 20px;
+        box-shadow: 5px;
+        margin-top: 40px;
+        border: 1px solid #CECECE;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .motamot-1 {
+        margin-right: none;
+        float: left;
+        margin-bottom: 3%;
+    }
+
+    .motamot-2 {
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+        margin-bottom: 3%;
+    }
+
+    .motamot-3 {
+        clear: both;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .address {
+        padding: 10px 0px 50px 0;
+    }
+
+    .communication-left {
+        width: 100%;
+        margin-right: none;
+        float: none;
+        text-align: center;
+    }
+
+    .communication-right {
+        width: 100%;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 742px) {
+    .footer-left {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-right {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 665px) {
+ .menu-logo img {
+    width: 100px
+}
+
+    .main-menu:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .main-menu ul {
+        list-style: none;
+        margin: 0;
+    }
+
+    .main-menu ul li {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .main-menu ul li a {
+        padding: 2px 0px;
+        display: block;
+        color: #3f4f39;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+
+    }
+    .menu-login a {
+    text-decoration: none;
+    background-color: #22A23F;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+    .slider {
+        width: 100%;
+        margin-top: 200px
+    }
+
+    .notice-content {
+        padding: 0 0 0px 0
+    }
+
+    .notice-left {
+        width: 100%;
+        margin-right: none;
+        float: none;
+    }
+
+
+    .notice-right {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .course-extra-section-left {
+        width: 100%;
+        margin-right: none;
+        float: none;
+    }
+
+    .course-extra-section-middle {
+        width: 100%;
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+    }
+
+
+    .course-extra-section-right {
+        width: 100%;
+        overflow: hidden
+    }
+
+    .course-extra-section-left,
+    .course-extra-section-middle,
+    .course-extra-section-right {
+        min-height: 100%;
+        margin-right: none;
+    }
+
+    .question-left {
+        width: 100%;
+        float: none;
+        shape-margin: none;
+    }
+
+    .question-right {
+        width: 100%;
+        overflow: hidden;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .course-1 {
+        width: 100%;
+        margin-right: none;
+        float: none;
+        margin-bottom: 4%;
+    }
+
+    .course-2 {
+        width: 100%;
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+        margin-bottom: 4%;
+    }
+
+    .course-3 {
+
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .statistic-middle-1 {
+        width: 100%;
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+        border-right: none;
+        box-sizing: border-box;
+
+    }
+    h4{border-bottom: 1px solid #fff;}
+    .statistic-middle-2 {
+        width: 100%;
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+        border-right: none;
+        box-sizing: border-box;
+    }
+
+    .statistic-right {
+        width: 100%;
+        margin-right: none;
+        overflow: hidden;
+    }
+    .statistic-right h4{border-bottom: none;}
+    .motamot-1,
+    .motamot-2,
+    .motamot-3 {
+        width: 100%;
+        min-height: none;
+        box-sizing: border-box;
+        padding: 20px;
+        box-shadow: 5px;
+        margin-top: 40px;
+        border: 1px solid #CECECE;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .motamot-1 {
+        margin-right: none;
+        float: none;
+        margin-bottom: 3%;
+    }
+
+    .motamot-2 {
+        margin-right: none;
+        overflow: hidden;
+        float: none;
+        margin-bottom: 3%;
+    }
+
+    .motamot-3 {
+
+        overflow: hidden;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 300px){
+    .slider{
+        margin-top: 250px
+    }
+}
