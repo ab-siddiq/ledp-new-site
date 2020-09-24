@@ -42,8 +42,7 @@ p {
     width: 20%;
     overflow: hidden;
     text-align: right;
-    position: relative;
-    top: 22px
+   padding-top: 22px;
 }
 
 .menu-logo img {
@@ -92,7 +91,9 @@ p {
     line-height: 21px;
     font-weight: 400;
 }
-
+.menu-login a:hover{
+    margin-top: -10px;
+}
 .slider {
     width: 100%;
     margin-top: 160px
@@ -231,7 +232,7 @@ hr {
     width: 100px;
     width: 100px;
     border: 1px solid #fff;
-    padding: 0px 0px;
+    padding: 10px 0px;
     margin-right: 25px;
     border-radius: 5px;
     font-size: 48px;
@@ -239,13 +240,15 @@ hr {
     font-weight: 400;
     margin-top: 5px;
 }
-
+.count-down{margin: auto;text-align: center;}
 .count h2 {
     font-size: 30px;
     line-height: 60px;
     font-weight: 600;
     margin-bottom: 15px;
+    
 }
+/*#count .countdown .running{display: block !important;clear: both;}*/
 
 .count label {
     display: block;
@@ -378,7 +381,7 @@ hr {
     background-color: #226A3C;
     color: #fff;
     text-align: center;
-    padding: ;
+    padding: 20px 0 100px 0;
 }
 
 .course-statistic h2,

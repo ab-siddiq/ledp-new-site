@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,6 +12,9 @@
 
 <body>
     <!--MENUBAR    SECTION START-->
+    <div class="loading">
+        <img src="assets/images/loading.gif" alt="">
+    </div>
     <section id="#">
         <div class="menu-bar">
             <div class="container">
@@ -95,14 +99,17 @@
 
     <!--COUNT DOWN    SECTION START-->
     <section id="#count">
-        <div class="count">
-            <div class="container count-down">
-                <h2>নিবন্ধন এর আর মাত্র বাকি</h2>
-                <p>-১২৮ <label for="">দিন</label></p>
-                <p>-২০<label for="">ঘন্টা</label></p>
-                <p>-৩<label for="">মিনিট </label></p>
-                <p>-৪২<label for="">সেকেন্ড</label></p>
+        <div class="count countdown" data-Date='2020/12/10 13:37:53'>
+            <h2>নিবন্ধন এর আর মাত্র বাকি</h2>
+            <div class="container count-down running">
+                <timer>
+                    <p>-<span class="days"></span><label for="">দিন</label></p>
+                    <p>-<span class="hours"></span><label for="">ঘন্টা</label></p>
+                    <p>-<span class="minutes"></span><label for="">মিনিট </label></p>
+                    <p>-<span class="seconds"></span><label for="">সেকেন্ড</label></p>
+                </timer>
                 <div class="reg"><a href="">নিবন্ধন করুন</a></div>
+
             </div>
         </div>
     </section>
@@ -171,11 +178,7 @@
                             <li><a href="">ডিজিটাল মার্কেটিং</a></li>
                         </ul>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -216,18 +219,18 @@
                     <div class="statistic-left">
                         <h2>কোর্স পরিসংখ্যান</h2>
                         <p>সর্বমোট নিবন্ধন করেছে ২০২০ সালে </p>
-                        <h4>৯৮,২৬৬</h4>
+                        <h2><span class="counter">2343</span></h2>
                     </div>
                     <div class="statistic-middle-1">
-                        <h2 class="">৮,১০৬</h2>
+                        <h2 class=""><span class="counter">1234</span></h2>
                         <h4>গ্রাফিক্স ডিজাইন</h4>
                     </div>
                     <div class="statistic-middle-2">
-                        <h2>৭২,৩৪৮</h2>
+                        <h2><span class="counter">43657</span></h2>
                         <h4>ওয়েব ডিজাইন অ্যান্ড ডেভেলপমেন্ট</h4>
                     </div>
                     <div class="statistic-right">
-                        <h2>১৭,৮১২</h2>
+                        <h2><span class="counter">56960</span></h2>
                         <h4>ডিজিটাল মার্কেটিং</h4>
                     </div>
                 </div>
@@ -327,22 +330,22 @@
             <div class="container">
                 <h2>যোগাযোগ</h2>
                 <hr>
-               <div class="communication-content">
+                <div class="communication-content">
                     <div class="communication-left">
-                    <div class="address">
-                        <h4>ঠিকানা:</h4>
-                        <p>ই-১৪/এক্স, আইসিটি টাওয়ার, আগারগাঁওশেরে-বাংলানগর, ঢাকা-১২০৭</p>
-                        <h4>ইমেইল:</h4>
-                        <p>info@ictd.gov.bd</p>
-                        <h4>ফোন নম্বর:</h4>
-                        <p>+৮৮-০২-৮১৮১৫৬৫</p>
-                    </div>
+                        <div class="address">
+                            <h4>ঠিকানা:</h4>
+                            <p>ই-১৪/এক্স, আইসিটি টাওয়ার, আগারগাঁওশেরে-বাংলানগর, ঢাকা-১২০৭</p>
+                            <h4>ইমেইল:</h4>
+                            <p>info@ictd.gov.bd</p>
+                            <h4>ফোন নম্বর:</h4>
+                            <p>+৮৮-০২-৮১৮১৫৬৫</p>
+                        </div>
 
+                    </div>
+                    <div class="communication-right">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7302.245042731394!2d90.37442!3d23.778651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x12bf528f77a8dc21!2sICT%20Division%2C%20Agargaon%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1599346269220!5m2!1sen!2sbd" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
                 </div>
-                <div class="communication-right">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7302.245042731394!2d90.37442!3d23.778651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x12bf528f77a8dc21!2sICT%20Division%2C%20Agargaon%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1599346269220!5m2!1sen!2sbd" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-               </div>
             </div>
         </div>
     </section>
@@ -369,7 +372,14 @@
         </div>
     </section>
     <!-- FOOTER   SECTION END-->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/multi-countdown.js"></script>
 
+    <script src="assets/js/script.js"> </script>
 
-
+    <script>
+       
+    </script>
 </body></html>
