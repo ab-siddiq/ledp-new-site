@@ -607,7 +607,8 @@ h4 {
     width: 50%;
     float: left
 }
-
+.footer-left a{text-decoration: none; color: #EA4335}
+.footer-left a:hover{color: #A50E0E; text-decoration: underline;}
 .footer-right {
     width: 50%;
     overflow: hidden;
